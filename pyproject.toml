@@ -1,0 +1,12 @@
+[project]
+name = "k8s-rocm-metrics-dashboard"
+version = "0.1.0"
+description = "Streamlit-based ROCm GPU Metrics Dashboard using K8s node-exporter & Prometheus"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.3",
+    "plotly>=6.0.1",
+    "requests>=2.32.3",
+    "streamlit>=1.45.0",
+]
